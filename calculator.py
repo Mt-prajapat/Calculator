@@ -108,7 +108,7 @@ class ScientificCalculator(QWidget):
             self.display.clear()
 
         QTextEdit.mousePressEvent(self.display,event)
-
+        
     # toggle history
     def toggle_history(self):
 
